@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    color: #242E35;
+    font-family: 'Iregular';
+}
+
+.mt360{
+    margin-top: 360px;
+}
+.mt240{
+    margin-top: 240px;
+}
+
+.mt120{
+    margin-top: 120px;
+}
+
+.mt80{
+    margin-top: 80px;
+}
+
+.mt60{
+    margin-top: 60px;
+}
+
+.mt40{
+    margin-top: 40px;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* header */
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logo{
+    font-size: 36px;
+    font-family: 'Inter';
+    font-weight: 800;
+    color: #242E35;
+}
+
+.logo:hover{
+    color: orange;
+    transform: scale(1.01);
+}
+
+header nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.link{
+    color: #242E35;
+}
+
+.link:hover{
+    color: orange;
+}
+
+/* banner */
+.banner{
+    object-fit: cover;
+    height: 800px;
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/banner1.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-size: 64px;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.banner-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+ }
+
+
+
+
+.loginbtn{
+    padding: 10px 20px;
+    font-family: 'Inter';
+    font-weight: 800;
+    color: white;
+    background-color: #242E35;
+    border: 2px solid transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.loginbtn:hover{
+    background-color: #4e6372;
+    transition: 0.5s;
+}
+
+.logintext{
+    color: #242E35;
+}
+
+.logintext:hover{
+    color: #4e6372;
+}
+
+.regbtn{
+    padding: 10px 20px;
+    font-family: 'Inter';
+    font-weight: 800;
+    color: white;
+    background-color: orange;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.regbtn:hover{
+    background-color: orangered;
+    transition: 0.5s;
+}
+
+.orbtn{
+    padding: 10px 20px;
+    font-family: 'Inter';
+    font-weight: 800;
+    color: white;
+    background-color: orange;
+    border: none;
+}
+
+.orbtn:hover{
+    color: #242E35;
+    transition: 0.5s;
+}
+
+.ortext{
+    color: orange;
+    outline: none;
+    border: none;
+}
+
+.ortext:hover{
+    color: #242E35;
+    transition: 0.5s;
+}
+
+.products-text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bbtext{
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.categories{
+    background-color: #242E35;
+}
+
+.category-items{
+   display: grid;
+   grid-template-columns: repeat(9, 1fr);
+}
+
+.category-item{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 800;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.category-item:hover{
+    background-color: orange;
+}
+
+
+.catalbtn{
+    padding: 10px 20px;
+    font-family: 'Inter';
+    font-weight: 800;
+    color: white;
+    background-color: orange;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.catalbtn:hover{
+    background-color: orangered;
+    transition: 0.5s;
+}
+
+.catalog-items{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 20px;
+}
+
+.product{
+    width: 218px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.product-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.prodtext{
+    color: #242E35;
+}
+
+.prodtext:hover{
+    color: #4e6372;
+}
+
+
+.prodtext h3{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.product img{
+    width: 218px;
+    object-fit: cover;
+}
+
+.prodprice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prodprice h4{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.cartbtn{
+    background-color: orange;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartbtn:hover{
+    background-color: orangered;
+    transition: 0.5s;
+}
+
+
+/* footer */
+footer{
+    background-color: #242E35;
+    padding: 40px 0px;
+}
+
+footer .logo{
+    color: white;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-items p{
+    color: white;
+    font-weight: 400;
+}
+
+/* reg */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-input{
+    width: 300px;
+    height: 40px;
+    border: 2px solid #242E35;
+    padding: 10px;
+    font-family: 'Inter';
+    font-weight: 800;
+    border-radius: 2px;
+}
+
+.form-input:focus{
+    border: 2px solid orange;
+}
+
+/* prodpage */
+.productp-items{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.productp-img img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.productp-text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.productp-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.productp-functions{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.prodp-p{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.delbtn{
+    padding: 10px 20px;
+    font-family: 'Inter';
+    font-weight: 800;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.delbtn:hover{
+    background-color: rgb(126, 3, 3);
+}
+
+.redbtn{
+    padding: 10px 20px;
+    font-family: 'Inter';
+    font-weight: 800;
+    color: white;
+    background-color: #242E35;
+    border: 2px solid transparent;
+    border: none;
+}
+
+.redbtn:hover{
+    background-color: #4e6372;
+}
