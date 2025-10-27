@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+a{
+    color: black;
+    font-weight: 700;
+}
+
+.mt40{
+    margin-top: 40px;
+}
+
+.mt80{
+    margin-top: 80px;
+}
+
+.mt120{
+    margin-top: 120px;
+}
+
+.mt140{
+    margin-top: 1400px;
+}
+
+.mt160{
+    margin-top: 160px;
+}
+
+.mt180{
+    margin-top: 180px;
+}
+
+/* header-menu & footer*/
+header{
+    background: linear-gradient(to right, #FFFFFF, #00FF00, #FFFFFF);
+}
+.header-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-weight: 500;
+}
+
+.header-items a{
+    color: black;
+}
+
+
+.logo a{
+    font-weight: 600;
+}
+
+.logo a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.logo-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logo-img:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.header-menu a:hover{
+    transition: 0.5s;
+    color: purple;
+}
+
+.reg{
+    display: flex;
+    gap: 20px;
+}
+
+.reg a{
+    color: white;
+}
+
+.login{
+    background: blue;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+}
+
+.login:hover{
+    transition: 0.5s;
+    background: skyblue;
+    transform: scale(1.1);
+}
+
+.registration{
+    background: orange;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+}
+
+.registration:hover{
+    transition: 0.5s;
+    background: green;
+    transform: scale(1.1);
+}
+
+/* footer */
+footer{
+    background: linear-gradient(to right, #FFFFFF, #00FF00, #FFFFFF);
+}
+
+.footer-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+footer a{
+    font-weight: 500;
+}
+
+.footer-items p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* about-us */
+.about-us-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-us-main p{
+    width: 500px;
+}
+
+/* location */
+.location-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-main a{
+    display: flex;
+    flex-direction: column;
+}
+
+/* login & reg */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-input{
+    width: 300px;
+    height: 30px;
+    border: 2px solid #242E35;
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 12px;
+    color: black;
+}
+
+.form-text{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.rform-btn{
+    padding: 15px 50px;
+    font-weight: 800;
+    font-size: 14px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.rform-btn:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: orangered;
+}
+.form-btn{
+    padding: 15px 50px;
+    font-weight: 800;
+    font-size: 14px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.lform-btn{
+    padding: 15px 50px;
+    font-weight: 800;
+    font-size: 14px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.lform-btn:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: skyblue;
+}
+
+select{
+    width: 324px;
+    height: 54px;
+    border: 2px solid #242E35;
+    padding: 0px 10px;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 12px;
+    color: grey;
+}
+
+select option{
+    color: black;
+}
+
+
+/* product card */
+.productcard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+.product-img{
+    width: 200px;
+    height: 150px;
+    border-radius: 3px;
+}
+
+.productcard nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prodbtn{
+    background-color: yellowgreen;
+    padding: 3px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.prodbtn:hover{
+    transition: 0.5s;
+    background-color: greenyellow;
+}
+
+.catalogue-items{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/* product page */
+.product{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.product nav{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 2;
+}
+
+.prod-flower-img{
+    width: 600px;
+    height: 500px;
+    border-radius: 3px;
+}
+
+.product .prodbtn{
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+}
+
+/* profile */
+.profile-menu{
+    display: flex;
+    gap: 40px;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+/* cart */
+.zakazes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.zakaz{
+    display: flex;
+    gap: 10px;
+    width: 400px;
+    border-radius: 3px;
+    align-items: center;
+    background-color: #56FFB7;
+    padding: 10px;
+}
+
+.zakaz nav{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    gap: 10px;
+    text-align: center;
+}
+
+.cancelbtn{
+    background-color: #FF9F9B;
+    padding: 3px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cancelbtn:hover{
+    transition: 0.5s;
+    background-color: #EC0500;
+}
+
+.exitbtn{
+    text-align: center;
+    align-self: center;
+    background-color: #FF9F9B;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.exitbtn:hover{
+    transition: 0.5s;
+    background-color: red;
+}
+
+/* admin */
+.zakaz-adminview{
+    background-color: #989691;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sho-delat-admin{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.yesbtn{
+    background-color: yellowgreen;
+    padding: 3px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.nobtn{
+    background-color: red;
+    padding: 3px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.admin-see-all nav{
+    background-color: #989691;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
